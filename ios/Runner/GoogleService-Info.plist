@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>834252816888-8jcs9k6bnj0eun996k4afirdpcgmfmdp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.834252816888-8jcs9k6bnj0eun996k4afirdpcgmfmdp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyACGUB5BpL2348ZuCdnebZr-aXdPOPenVI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>834252816888</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.herewego</string>
+	<key>PROJECT_ID</key>
+	<string>herewego-e966e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>herewego-e966e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:834252816888:ios:f40abd1f53ed52388d960d</string>
+</dict>
+</plist>
