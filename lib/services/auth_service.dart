@@ -6,7 +6,6 @@ import 'package:herewego/services/prefs_service.dart';
 class AuthService {
   static final _auth = FirebaseAuth.instance;
 
-  // sign in uchun
   static Future<FirebaseUser?> signInUser(
       BuildContext context, String email, String password) async {
     try {
@@ -15,12 +14,11 @@ class AuthService {
       print(user.toString());
       return user;
     } catch (e) {
-      print(e);
+      print(e.toString());
     }
     return null;
   }
 
-  // sign up uchun
   static Future<FirebaseUser?> signUpUser(
       BuildContext context, String name, String email, String password) async {
     try {
@@ -35,7 +33,6 @@ class AuthService {
     return null;
   }
 
-  // sign out uchun
   static void signOutUser(BuildContext context) {
     _auth.signOut();
     Prefs.removeUserId().then((value) {
